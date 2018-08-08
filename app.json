@@ -1,0 +1,41 @@
+{
+  "name": "heroku-wechaty",
+  "description": "Heroku Wechaty Getting Started Template",
+  "repository": "https://github.com/chatie/heroku-wechaty-getting-started",
+  "logo": "https://chatie.io/wechaty/images/wechaty-icon.png",
+  "keywords": ["wechaty", "heroku", "deploy", "button"],
+  "env": {
+    "WECHATY_TOKEN": {
+      "description": "Chatie.io Cloud Token",
+      "value": ""
+    },
+    "WECHATY_LOG": {
+      "description": "Wechaty Log Level",
+      "value": "info"
+    },
+    "S3_ACCESS_KEY_ID": {
+      "description": "Amazon S3 accessKeyId for Bot Memory",
+      "value": ""
+    },
+    "S3_SECRET_ACCESS_KEY": {
+      "description": "Amazon S3 secretAccessKey for Bot Memory",
+      "value": ""
+    },
+    "S3_REGION": {
+      "description": "Amazon S3 Region for Bot Memory",
+      "value": ""
+    },
+    "S3_BUCKET": {
+      "description": "Amazon S3 Bucket for Bot Memory",
+      "value": ""
+    }
+  },
+  "engines": {
+    "node": "10"
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    }
+  ]
+}
