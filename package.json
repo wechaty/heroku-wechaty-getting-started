@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/chatie/heroku-wechaty-getting-started#readme",
   "dependencies": {
-    "@babel/runtime": "7.0.0-beta.56",
     "@types/hapi": "^17.0.12",
     "@types/lru-cache": "^4.1.1",
     "@types/node": "^10.5.6",
