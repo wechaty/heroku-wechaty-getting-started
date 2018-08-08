@@ -44,15 +44,15 @@ export async function startWeb (bot: Wechaty): Promise<void> {
     }
   })
 
-  bot.on('scan', (qrcode) => {
+  bot.on('scan', qrcode => {
     qrcodeValue = qrcode
-    userName = undefined
+    userName    = undefined
   })
-  bot.on('login', (user) => {
+  bot.on('login', user => {
     qrcodeValue = undefined
-    userName = user.name()
+    userName    = user.name()
   })
-  bot.on('logout', (user) => {
+  bot.on('logout', () => {
     userName = undefined
   })
 

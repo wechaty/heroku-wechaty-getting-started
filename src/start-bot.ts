@@ -42,9 +42,9 @@ export async function startBot (wechaty: Wechaty): Promise<void> {
   log.verbose('startBot', 'startBot(%s)', wechaty)
 
   wechaty
-  .on('scan', onScan)
-  .on('logout', onLogout)
-  .on('error', onError)
-  .on('login', onLogin)
-  .on('message', onMessage)
+  .on('scan',     onScan)
+  .on('logout',   onLogout)
+  .on('error',    onError)
+  .on('login',    onLogin)
+  .on('message',  onMessage)
 }
