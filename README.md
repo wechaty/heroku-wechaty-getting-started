@@ -1,6 +1,6 @@
 # HEROKU WECHATY GETTING STARTED
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
 
 Deploy to Heroku for Wechaty Starter Project
 
