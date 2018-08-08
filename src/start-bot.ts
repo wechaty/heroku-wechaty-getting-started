@@ -21,7 +21,7 @@ function onScan (qrcode: string, status: number) {
 }
 
 async function onLogin (user: Contact): Promise<void> {
-  const msg = `${user.name()} Heroku Wechaty Getting Started v@${VERSION} logined`
+  const msg = `${user.name()} Heroku Wechaty Getting Started v${VERSION} logined`
   log.info('startBot', 'onLogin(%s) %s', user, msg)
   await user.say(msg)
 }

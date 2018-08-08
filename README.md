@@ -1,5 +1,9 @@
 # HEROKU WECHATY GETTING STARTED
 
+[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
+[![Build Status](https://travis-ci.com/Chatie/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/heroku-wechaty-getting-started)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Deploy to Heroku for Wechaty Starter Project
@@ -15,11 +19,6 @@ Deploy to Heroku for Wechaty Starter Project
 - [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
 - [Introducing Heroku Button](https://blog.heroku.com/heroku-button)
 - <https://github.com/heroku/button-sample>
-
-## TEST
-
-[![Build Status](https://travis-ci.com/Chatie/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/heroku-wechaty-getting-started)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
 
 ## AUTHOR
 
