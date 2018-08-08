@@ -10,6 +10,8 @@ import {
 }             from './config'
 
 export async function startWeb (bot: Wechaty): Promise<void> {
+  log.verbose('startWeb', 'startWeb(%s)', bot)
+
   let qrcodeValue : undefined | string
   let userName    : undefined | string
 
@@ -55,5 +57,5 @@ export async function startWeb (bot: Wechaty): Promise<void> {
   })
 
   await server.start()
-  log.info('Web', 'listening to http://localhost:%d', PORT)
+  log.info('startWeb', 'startWeb() listening to http://localhost:%d', PORT)
 }
