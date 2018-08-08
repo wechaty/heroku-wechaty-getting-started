@@ -20,6 +20,10 @@
       "description": "Wechaty Log Level",
       "required": false
     },
+    "WECHATY_PUPPET": {
+      "description": "Wechaty Puppet Name, Default: `wechaty-puppet-puppeteer`. Learn more at: <https://github.com/Chatie/wechaty/wiki/Puppet>",
+      "required": false
+    },
     "WECHATY_NAME": {
       "description": "Wechaty Name Used to Store Memory",
       "generator": "secret"
