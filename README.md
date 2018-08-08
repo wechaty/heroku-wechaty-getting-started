@@ -1,5 +1,7 @@
 # HEROKU WECHATY GETTING STARTED
 
+[![Build Status](https://travis-ci.com/Chatie/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/heroku-wechaty-getting-started)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Deploy to Heroku for Wechaty Starter Project
