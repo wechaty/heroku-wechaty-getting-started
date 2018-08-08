@@ -10,6 +10,12 @@ Deploy to Heroku for Wechaty Starter Project
 
 > The ‘Deploy to Heroku’ button enables users to deploy apps to Heroku without leaving the web browser, and with little or no configuration. The button is ideal for customers, open-source project maintainers or add-on providers who wish to provide their customers with a quick and easy way to deploy and configure a Heroku app.
 
+## SEE ALSO
+
+- [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
+- [Introducing Heroku Button](https://blog.heroku.com/heroku-button)
+- <https://github.com/heroku/button-sample>
+
 ## TEST
 
 [![Build Status](https://travis-ci.com/Chatie/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/heroku-wechaty-getting-started)
@@ -24,6 +30,6 @@ Deploy to Heroku for Wechaty Starter Project
 
 ## COPYRIGHT & LICENSE
 
-* Code & Docs © 2018 Huan LI \<zixia@zixia.net\>
-* Code released under the Apache-2.0 License
-* Docs released under Creative Commons
+- Code & Docs © 2018 Huan LI \<zixia@zixia.net\>
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons
