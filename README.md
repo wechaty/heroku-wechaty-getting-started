@@ -1,6 +1,6 @@
 # HEROKU WECHATY GETTING STARTED
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Deploy to Heroku for Wechaty Starter Project
 
@@ -19,6 +19,7 @@ Deploy to Heroku for Wechaty Starter Project
 ## TEST
 
 [![Build Status](https://travis-ci.com/Chatie/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/Chatie/heroku-wechaty-getting-started)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Chatie/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
 
 ## AUTHOR
 
