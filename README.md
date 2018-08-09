@@ -20,6 +20,7 @@ Deploy to Heroku for Wechaty Starter Project
 - [Introducing Heroku Button](https://blog.heroku.com/heroku-button)
 - <https://github.com/heroku/button-sample>
 - [Heroku App.Json Manifest and Button Maker](https://www.expeditedssl.com/heroku-button-maker)
+- [Why does SIGTERM handling not work correctly in NodeJS with NPM?](https://help.heroku.com/ROG3H81R/why-does-sigterm-handling-not-work-correctly-in-nodejs-with-npm)
 
 ## AUTHOR
 
