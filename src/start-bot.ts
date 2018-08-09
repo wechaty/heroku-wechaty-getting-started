@@ -1,8 +1,11 @@
 import {
   Contact,
+  Friendship,
   Message,
+  Room,
+  RoomInvitation,
   Wechaty,
-}               from 'wechaty'
+}                   from 'wechaty'
 
 import {
   log,
@@ -38,13 +41,38 @@ async function onMessage (msg: Message): Promise<void> {
   log.info('startBot', 'onMessage(%s)', msg)
 }
 
+async function onFriendship (friendship: Friendship): Promise<void> {
+  log.info('startBot', 'onFriendship(%s)', friendship)
+}
+
+async function onRoomTopic (room: Room, newTopic: string, oldTopic: string, changer: Contact): Promise<void> {
+  log.info('startBot', 'onRoomTopic(%s, %s, %s, %s)', room, newTopic, oldTopic, changer)
+}
+
+async function onRoomInvite (roomInvitation: RoomInvitation): Promise<void> {
+  log.info('startBot', 'onRoomInvite(%s)', roomInvitation)
+}
+
+async function onRoomJoin (room: Room, inviteeList: Contact[],  inviter: Contact): Promise<void> {
+  log.info('startBot', 'onRoomJoin(%s, %s, %s)', room, inviteeList.join(','), inviter)
+}
+
+async function onRoomLeave (room: Room, leaverList: Contact[], remover?: Contact): Promise<void> {
+  log.info('startBot', 'onRoomLeave(%s, %s, %s)', room, leaverList.join(','), remover)
+}
+
 export async function startBot (wechaty: Wechaty): Promise<void> {
   log.verbose('startBot', 'startBot(%s)', wechaty)
 
   wechaty
-  .on('scan',     onScan)
-  .on('logout',   onLogout)
-  .on('error',    onError)
-  .on('login',    onLogin)
-  .on('message',  onMessage)
+  .on('scan',         onScan)
+  .on('logout',       onLogout)
+  .on('error',        onError)
+  .on('login',        onLogin)
+  .on('message',      onMessage)
+  .on('friendship',   onFriendship)
+  .on('room-topic',   onRoomTopic)
+  .on('room-invite',  onRoomInvite)
+  .on('room-join',    onRoomJoin)
+  .on('room-leave',   onRoomLeave)
 }
