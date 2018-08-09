@@ -1,7 +1,7 @@
 import Hapi    from 'hapi'
 import {
   Wechaty,
-}                 from 'wechaty'
+}               from 'wechaty'
 
 import {
   log,
