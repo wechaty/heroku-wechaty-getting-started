@@ -12,15 +12,6 @@ import {
 let bot: Wechaty
 let FINIS_QUITING = false
 
-export function startFinis (wechaty: Wechaty): void {
-  if (bot) {
-    throw new Error('should not run twice')
-  }
-
-  bot = wechaty
-  finis(finisCallback)
-}
-
 /**
  *
  * SIGTERM
@@ -66,4 +57,13 @@ const finisCallback: FinisCallback = async (code: number, signal: string) => {
     log.info('startFinis', 'finisCallback() soft exit')
     process.exit(code)
   }
+}
+
+export function startFinis (wechaty: Wechaty): void {
+  if (bot) {
+    throw new Error('should not run twice')
+  }
+
+  bot = wechaty
+  finis(finisCallback)
 }
