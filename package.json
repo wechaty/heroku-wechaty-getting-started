@@ -33,6 +33,7 @@
     "@types/request": "^2.47.1",
     "axios": "^0.18.0",
     "brolog": "^1.6.5",
+    "finis": "^0.4.3",
     "hapi": "^17.5.1",
     "read-pkg-up": "^4.0.0",
     "request": "^2.87.0",

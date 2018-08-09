@@ -1,9 +1,9 @@
 import {
   log,
-}           from './config'
-
+}                     from './config'
 import { getWechaty } from './get-wechaty'
 import { startBot }   from './start-bot'
+import { startFinis } from './start-finis'
 import { startWeb }   from './start-web'
 
 async function main () {
@@ -15,8 +15,9 @@ async function main () {
 
   await Promise.all([
     bot.start(),
-    startWeb(bot),
     startBot(bot),
+    startFinis(bot),
+    startWeb(bot),
   ])
 
   while (bot.state.on()) {
