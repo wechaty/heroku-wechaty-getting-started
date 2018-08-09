@@ -19,6 +19,7 @@ Deploy to Heroku for Wechaty Starter Project
 - [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
 - [Introducing Heroku Button](https://blog.heroku.com/heroku-button)
 - <https://github.com/heroku/button-sample>
+- [Heroku App.Json Manifest and Button Maker](https://www.expeditedssl.com/heroku-button-maker)
 
 ## AUTHOR
 
