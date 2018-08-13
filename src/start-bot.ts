@@ -6,7 +6,6 @@ import {
   log,
 }               from './config'
 
-
 export async function startBot (wechaty: Wechaty): Promise<void> {
   log.verbose('startBot', 'startBot(%s)', wechaty)
 
