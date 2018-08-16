@@ -22,6 +22,11 @@ Deploy to Heroku for Wechaty Starter Project
 1. Send Online/Offline Notification Message to BotSelf when the Program Start/Stop. See `src/finis.ts`
 1. Simpel Web Server that can be used to Scan QR Code, or any other operations integrated with Wechaty. See `src/start-web.ts`
 
+## LIMITATIONS
+
+1. [If an app has a web dyno, and that web dyno receives no traffic in a 30 minute period, the web dyno will sleep](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping)
+1. [Dynos are restarted (cycled) at least once per day to help maintain the health of applications running on Heroku](https://devcenter.heroku.com/articles/dynos#restarting)
+
 ## SEE ALSO
 
 - [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
