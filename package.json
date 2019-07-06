@@ -33,7 +33,7 @@
     "finis": "^0.4.3",
     "hapi": "^17.5.1",
     "read-pkg-up": "^4.0.0",
-    "wechaty": "^0.22.1"
+    "wechaty": "^0.27.41"
   },
   "devDependencies": {
     "@chatie/eslint-config": "^0.8.1",
