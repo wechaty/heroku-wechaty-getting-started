@@ -20,10 +20,10 @@ export function getMemory (name: string): MemoryCard {
   const AWS_REGION            = process.env.AWS_REGION as string
   const AWS_S3_BUCKET         = process.env.AWS_S3_BUCKET as string
 
-  if (  AWS_ACCESS_KEY_ID
-    &&  AWS_REGION
-    &&  AWS_SECRET_ACCESS_KEY
-    &&  AWS_S3_BUCKET
+  if (AWS_ACCESS_KEY_ID
+    && AWS_REGION
+    && AWS_SECRET_ACCESS_KEY
+    && AWS_S3_BUCKET
   ) {
     log.verbose('getMemory', 'getMemory() creating new s3 memory')
 
@@ -35,7 +35,7 @@ export function getMemory (name: string): MemoryCard {
         region          : AWS_REGION,
         secretAccessKey : AWS_SECRET_ACCESS_KEY,
         type            : 's3',
-      }
+      },
     })
   } else {
     log.verbose('getMemory', 'getMemory() creating new file memory')

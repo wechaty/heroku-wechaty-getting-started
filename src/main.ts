@@ -21,14 +21,14 @@ async function main () {
   ])
 
   while (bot.state.on()) {
-    await new Promise((r) => setTimeout(r, 1000))
+    await new Promise(resolve => setTimeout(resolve, 1000))
   }
   return 0
 }
 
 main()
-.then(process.exit)
-.catch((e) => {
-  log.error('Main', 'main() rejection: %s', e)
-  process.exit(1)
-})
+  .then(process.exit)
+  .catch((e) => {
+    log.error('Main', 'main() rejection: %s', e)
+    process.exit(1)
+  })

@@ -9,9 +9,9 @@ export async function onScan (
   status : number,
 ): Promise<void> {
   log.info('on-scan', 'onScan() [%s] %s\nScan QR Code above to log in.',
-                      status,
-                      qrcodeValueToUrl(qrcode),
-          )
+    status,
+    qrcodeValueToUrl(qrcode),
+  )
 }
 
 /**

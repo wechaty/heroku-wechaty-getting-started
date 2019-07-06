@@ -19,29 +19,31 @@ export async function startWeb (bot: Wechaty): Promise<void> {
     port: PORT,
   })
 
-  server.route({
-    method: 'GET',
-    path: '/',
-    handler () {
-      if (qrcodeValue) {
-        const html = [
-          `<h1>Heroku Wechaty Getting Started v${VERSION}</h1>`,
-          'Scan QR Code: <br />',
-          qrcodeValue + '<br />',
-          '<a href="http://goqr.me/" target="_blank">http://goqr.me/</a><br />',
-          '\n\n',
-          '<image src="',
-          'https://api.qrserver.com/v1/create-qr-code/?data=',
-          encodeURIComponent(qrcodeValue),
-          '">',
-        ].join('')
-        return html
-      } else if (userName) {
-        return `Heroku Wechaty Getting Started v${VERSION} User ${userName} logined`
-      } else {
-        return `Heroku Wechaty Getting Started v${VERSION} Hello, come back later please.`
-      }
+  const handler = () => {
+    if (qrcodeValue) {
+      const html = [
+        `<h1>Heroku Wechaty Getting Started v${VERSION}</h1>`,
+        'Scan QR Code: <br />',
+        qrcodeValue + '<br />',
+        '<a href="http://goqr.me/" target="_blank">http://goqr.me/</a><br />',
+        '\n\n',
+        '<image src="',
+        'https://api.qrserver.com/v1/create-qr-code/?data=',
+        encodeURIComponent(qrcodeValue),
+        '">',
+      ].join('')
+      return html
+    } else if (userName) {
+      return `Heroku Wechaty Getting Started v${VERSION} User ${userName} logined`
+    } else {
+      return `Heroku Wechaty Getting Started v${VERSION} Hello, come back later please.`
     }
+  }
+
+  server.route({
+    handler,
+    method : 'GET',
+    path   : '/',
   })
 
   bot.on('scan', qrcode => {

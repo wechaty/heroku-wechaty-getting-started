@@ -1,11 +1,11 @@
-export {
-  log,
-}               from 'brolog'
-
 /**
  * VERSION
  */
 import readPkgUp from 'read-pkg-up'
+
+export {
+  log,
+}               from 'brolog'
 
 const pkg = readPkgUp.sync({ cwd: __dirname }).pkg
 export const VERSION = pkg.version
