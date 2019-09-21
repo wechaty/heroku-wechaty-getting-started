@@ -4,7 +4,7 @@ import {
   Wechaty,
 }                   from 'wechaty'
 
-export async function onRoomInvite (
+export default async function onRoomInvite (
   this           : Wechaty,
   roomInvitation : RoomInvitation
 ): Promise<void> {

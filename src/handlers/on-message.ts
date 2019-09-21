@@ -4,7 +4,7 @@ import {
   Wechaty,
 }             from 'wechaty'
 
-export async function onMessage (
+export default async function onMessage (
   this    : Wechaty,
   message : Message,
 ): Promise<void> {
