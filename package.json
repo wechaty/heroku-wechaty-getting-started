@@ -1,6 +1,6 @@
 {
   "name": "heroku-wechaty",
-  "version": "0.2.26",
+  "version": "0.2.27",
   "description": "Deploy to Heroku Button for Wechaty",
   "main": "index.js",
   "engines": {
