@@ -16,6 +16,10 @@
       "description": "Chatie.io Cloud Token",
       "required": false
     },
+    "WECHATY_PUPPET_PADPLUS_TOKEN": {
+      "description": "wechaty-puppet-padplus Cloud Service Token",
+      "required": false
+    },
     "WECHATY_LOG": {
       "description": "Wechaty Log Level",
       "required": false
