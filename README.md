@@ -41,6 +41,7 @@ Deploy to Heroku for Wechaty Starter Project
 1. [OSS Bot](https://github.com/kaiyuanshe/OSS-bot) - <https://oss-bot-dev.herokuapp.com/>
 1. [Mike BO](https://github.com/huan/mike-bo) - <http://mike-bo.herokuapp.com/>
 1. [QiJi BOT](https://github.com/juzibot/qijibot) - <https://qiji-bot.herokuapp.com/>
+1. [Bot Ops](https://github.com/juzibot/botops) - <https://bot-ops.herokuapp.com/>
 
 ## AUTHOR
 
