@@ -47,6 +47,10 @@
     "AWS_S3_BUCKET": {
       "description": "Amazon S3 Bucket for Bot Memory",
       "required": false
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "Skip pruning: https://devcenter.heroku.com/articles/nodejs-support#skip-pruning",
+      "value": "false"
     }
   },
   "engines": {
