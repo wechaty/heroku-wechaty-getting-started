@@ -35,6 +35,13 @@ Deploy to Heroku for Wechaty Starter Project
 - [Heroku App.Json Manifest and Button Maker](https://www.expeditedssl.com/heroku-button-maker)
 - [Why does SIGTERM handling not work correctly in NodeJS with NPM?](https://help.heroku.com/ROG3H81R/why-does-sigterm-handling-not-work-correctly-in-nodejs-with-npm)
 
+## Use Cases
+
+1. [BOT5](https://github.com/wechaty/bot5) - <https://bot-friday.herokuapp.com/>
+1. [OSS Bot](https://github.com/kaiyuanshe/OSS-bot) - <https://oss-bot-dev.herokuapp.com/>
+1. [Mike BO](https://github.com/huan/mike-bo) - <http://mike-bo.herokuapp.com/>
+1. [QiJi BOT](https://github.com/juzibot/qijibot) - <https://qiji-bot.herokuapp.com/>
+
 ## AUTHOR
 
 [Huan LI (李卓桓)](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
