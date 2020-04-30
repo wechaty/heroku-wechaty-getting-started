@@ -13,7 +13,9 @@
     "start": "echo -e '\n\nDo not use `npm start` because its buggy with SIGTERM\n\nUse Procfile instead.\n\n' && exit 1",
     "test": "npm run lint && npm run test:unit",
     "test:unit": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\"",
-    "lint:es": "eslint --ignore-pattern tests/fixtures/ '{bin,examples,scripts,src,tests}/**/*.ts'"
+    "lint:es": "eslint --ignore-pattern tests/fixtures/ '{bin,examples,scripts,src,tests}/**/*.ts'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,8 @@
     "brolog": "^1.6.5",
     "finis": "^0.4.3",
     "read-pkg-up": "^7.0.1",
-    "wechaty": "^0.29.8"
+    "wechaty": "^0.29.8",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@chatie/eslint-config": "^0.8.1",
@@ -45,5 +48,6 @@
     "scripts": {
       "pre-push": "npx git-scripts-pre-push"
     }
-  }
+  },
+  "snyk": true
 }
