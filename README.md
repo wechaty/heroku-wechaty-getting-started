@@ -37,11 +37,12 @@ Deploy to Heroku for Wechaty Starter Project
 
 ## Use Cases
 
-1. [BOT5](https://github.com/wechaty/bot5) - <https://bot-friday.herokuapp.com/>
-1. [OSS Bot](https://github.com/kaiyuanshe/OSS-bot) - <https://oss-bot-dev.herokuapp.com/>
+1. [Friday BOT](https://github.com/wechaty/friday) - <https://bot-friday.herokuapp.com/>
+1. [OSSBot](https://github.com/kaiyuanshe/OSS-bot) - <https://oss-bot-dev.herokuapp.com/>
 1. [Mike BO](https://github.com/huan/mike-bo) - <http://mike-bo.herokuapp.com/>
 1. [QiJi BOT](https://github.com/juzibot/qijibot) - <https://qiji-bot.herokuapp.com/>
 1. [Bot Ops](https://github.com/juzibot/botops) - <https://bot-ops.herokuapp.com/>
+1. [Rui Assistant BOT](https://github.com/juzibot/rui-bot)
 
 ## AUTHOR
 
