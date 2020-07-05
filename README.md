@@ -43,6 +43,7 @@ Deploy to Heroku for Wechaty Starter Project
 1. [QiJi BOT](https://github.com/juzibot/qijibot) - <https://qiji-bot.herokuapp.com/>
 1. [Bot Ops](https://github.com/juzibot/botops) - <https://bot-ops.herokuapp.com/>
 1. [Rui Assistant BOT](https://github.com/juzibot/rui-bot)
+1. [Juzi.BOT](https://github.com/juzibot/juzi-bot)
 
 ## AUTHOR
 
