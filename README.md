@@ -45,6 +45,16 @@ Deploy to Heroku for Wechaty Starter Project
 1. [Rui Assistant BOT](https://github.com/juzibot/rui-bot)
 1. [Juzi.BOT](https://github.com/juzibot/juzi-bot)
 
+## History
+
+### v0.4 (Feb 3, 2020)
+
+Wechaty 0.56
+
+### v0.0.1 (Aug 9, 2018)
+
+Init version for deploy to HeroKu
+
 ## AUTHOR
 
 [Huan LI (李卓桓)](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
