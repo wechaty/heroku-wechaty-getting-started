@@ -5,7 +5,7 @@ import {
   Wechaty,
 }             from 'wechaty'
 
-export default async function onRoomJoin (
+async function onRoomJoin (
   this        : Wechaty,
   room        : Room,
   inviteeList : Contact[],
@@ -13,3 +13,5 @@ export default async function onRoomJoin (
 ): Promise<void> {
   log.info('on-room-join', 'onRoomJoin(%s, %s, %s)', room, inviteeList.join(','), inviter)
 }
+
+export default onRoomJoin

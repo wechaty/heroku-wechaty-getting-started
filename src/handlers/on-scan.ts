@@ -3,7 +3,7 @@ import {
   Wechaty,
 }             from 'wechaty'
 
-export default async function onScan (
+async function onScan (
   this   : Wechaty,
   qrcode : string,
   status : number,
@@ -26,3 +26,5 @@ function qrcodeValueToUrl (value: string): string {
 
   return qrcodeImageUrl
 }
+
+export default onScan

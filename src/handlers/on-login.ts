@@ -9,7 +9,7 @@ import {
   VERSION as BOT_VERSION,
 }                               from '../config'
 
-export default async function onLogin (
+async function onLogin (
   this : Wechaty,
   user : Contact,
 ): Promise<void> {
@@ -17,3 +17,5 @@ export default async function onLogin (
   log.info('startBot', 'onLogin(%s) %s', user, msg)
   await user.say(msg)
 }
+
+export default onLogin

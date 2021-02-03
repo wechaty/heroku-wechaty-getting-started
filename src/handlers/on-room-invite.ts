@@ -4,9 +4,11 @@ import {
   Wechaty,
 }                   from 'wechaty'
 
-export default async function onRoomInvite (
+async function onRoomInvite (
   this           : Wechaty,
   roomInvitation : RoomInvitation
 ): Promise<void> {
   log.info('on-room-invite', 'onRoomInvite(%s)', roomInvitation)
 }
+
+export default onRoomInvite

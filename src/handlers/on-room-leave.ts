@@ -5,7 +5,7 @@ import {
   Wechaty,
 }             from 'wechaty'
 
-export default async function onRoomLeave (
+async function onRoomLeave (
   this       : Wechaty,
   room       : Room,
   leaverList : Contact[],
@@ -13,3 +13,5 @@ export default async function onRoomLeave (
 ): Promise<void> {
   log.info('on-room-leave', 'onRoomLeave(%s, %s, %s)', room, leaverList.join(','), remover)
 }
+
+export default onRoomLeave

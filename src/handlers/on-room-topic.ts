@@ -5,7 +5,7 @@ import {
   Wechaty,
 }             from 'wechaty'
 
-export default async function onRoomTopic (
+async function onRoomTopic (
   this     : Wechaty,
   room     : Room,
   newTopic : string,
@@ -14,3 +14,5 @@ export default async function onRoomTopic (
 ): Promise<void> {
   log.info('startBot', 'onRoomTopic(%s, %s, %s, %s)', room, newTopic, oldTopic, changer)
 }
+
+export default onRoomTopic
