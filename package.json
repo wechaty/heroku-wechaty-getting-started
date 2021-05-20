@@ -33,7 +33,7 @@
     "@types/read-pkg-up": "^6.0.0",
     "brolog": "^1.6.5",
     "finis": "^0.4.3",
-    "read-pkg-up": "^7.0.1",
+    "read-pkg-up": "^8.0.0",
     "wechaty": "^0.60.5"
   },
   "devDependencies": {
