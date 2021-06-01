@@ -13,4 +13,4 @@ export const VERSION = pkg.version
 /**
  * Env Vars
  */
-export const PORT = process.env.PORT || 8788
+export const PORT = parseInt(process.env['PORT'] || '8788')
