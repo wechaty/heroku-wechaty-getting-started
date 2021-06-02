@@ -4,11 +4,13 @@
 [![Build Status](https://travis-ci.com/wechaty/heroku-wechaty-getting-started.svg?branch=master)](https://travis-ci.com/wechaty/heroku-wechaty-getting-started)
 [![Greenkeeper badge](https://badges.greenkeeper.io/wechaty/heroku-wechaty-getting-started.svg)](https://greenkeeper.io/)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 Deploy to Heroku for Wechaty Starter Project
 
+![Heroku + Wechaty](docs/images/heroku-wechaty.png)
+
 ## About `Deploy to Heroku` Button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
 
