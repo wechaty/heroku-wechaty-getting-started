@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/chatie/heroku-wechaty-getting-started#readme",
   "dependencies": {
-    "@chatie/tsconfig": "^0.17.1",
+    "@chatie/tsconfig": "^0.19.6",
     "@hapi/hapi": "^20.1.3",
     "@types/hapi__hapi": "^20.0.8",
     "@types/raven": "^2.5.3",
