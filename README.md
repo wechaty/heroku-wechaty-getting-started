@@ -57,6 +57,19 @@ Wechaty 0.56
 
 Init version for deploy to HeroKu
 
+## FAQ
+
+### 1. How to shutdown an app deployed on Heroku?
+
+To completely 'stop' your app you can scale the web dynos down to zero which effectively takes all your app http-processes offline.
+
+```sh
+$ heroku ps:scale web=0
+Scaling web processes... done, now running 0
+```
+
+> Credit: https://stackoverflow.com/a/10231477/1123955
+
 ## AUTHOR
 
 [Huan LI (李卓桓)](http://linkedin.com/in/zixia) \<zixia@zixia.net\>
