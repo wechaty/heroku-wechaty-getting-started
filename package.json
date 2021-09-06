@@ -38,7 +38,7 @@
     "wechaty": "^0.61.6"
   },
   "devDependencies": {
-    "@chatie/eslint-config": "^0.12.4",
+    "@chatie/eslint-config": "^0.14.1",
     "@chatie/git-scripts": "^0.6.2",
     "tstest": "^0.4.10"
   },
