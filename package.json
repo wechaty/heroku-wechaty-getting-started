@@ -33,7 +33,7 @@
     "@types/read-pkg-up": "^6.0.0",
     "brolog": "^1.12.4",
     "finis": "^0.4.4",
-    "read-pkg-up": "^7.0.0",
+    "read-pkg-up": "^9.0.0",
     "typescript": "4.3",
     "wechaty": "^0.61.6"
   },
